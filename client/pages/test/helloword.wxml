@@ -1,6 +1,6 @@
 <view class="container">
 <view>
-<text>Hello Word</text>
+  <text>Hello Word</text>
 </view>
 
 <!-- https://jingwei.supfree.net/mengzi.asp?id=1711 洪山区的经纬度 -->
