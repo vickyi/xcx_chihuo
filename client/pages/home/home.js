@@ -1,17 +1,32 @@
 //index.js
-var qcloud = require('../../vendor/wafer2-client-sdk/index')
-var config = require('../../config')
-var util = require('../../utils/util.js')
+// var qcloud = require('../../vendor/wafer2-client-sdk/index')
+// var config = require('../../config')
+// var util = require('../../utils/util.js')
 
 Page({
   data: {
     focus: false,
-    inputValue: '一心一意'
+    inputValue: '一心一意',
+    nodes: [{
+      name: 'div',
+      attrs: {
+        class: 'div_class',
+        style: 'line-height: 60px; color: red;'
+      },
+      children: [{
+        type: 'text',
+        text: '比喻人的心思流荡散乱，如猿马之难以控制。思维好像猴子在跳、意识像马在奔跑一样的控制不住。形容心里东想西想，安静不下来。一颗浮躁不定、不平静的心。'
+      }]
+    }]
+  },
+
+  tap() {
+    console.log('tap')
   },
 
   bindButtonTap: function () {
     this.setData({
-      focus: true
+      focus: false
     })
   },
 
@@ -20,7 +35,7 @@ Page({
       inputValue: e.detail.value
     })
   },
-  
+
   bindReplaceInput: function (e) {
     var value = e.detail.value
     var pos = e.detail.cursor

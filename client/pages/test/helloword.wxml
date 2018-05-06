@@ -1,9 +1,0 @@
-<view class="container">
-<view>
-  <text>Hello Word</text>
-</view>
-
-<!-- https://jingwei.supfree.net/mengzi.asp?id=1711 洪山区的经纬度 -->
-<view><map longitude="114.33" latitude="30.50"></map></view>
-
-</view>

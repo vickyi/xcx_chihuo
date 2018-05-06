@@ -1,12 +1,13 @@
 {
-  "pages":[
-    "pages/home/home"
+  "pages": [
+    "pages/home/home",
+    "pages/search"
   ],
-  "window":{
-    "backgroundColor":"#F6F6F6",
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#e64340",
     "navigationBarTitleText": "吃货",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   }
 }
